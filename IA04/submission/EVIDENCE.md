@@ -29,3 +29,6 @@ Data at risk	No data is lost, because the login flow mainly reads. The risk is a
 Logs	Server logs record the error, the time and the request ID. They must not record tokens, passwords or full emails.
 Immediate mitigation / recovery	Check the Neon dashboard and connection string, restart or resume the database, and retry. Users simply sign in again.
 Test of failure handling	Start the API with a wrong or blocked database URL, send a login request with a valid token, and confirm the response is 503 with the safe message, with no stack trace and no session token.
+
+https://youtu.be/DQ5Dfmo2VxA
+Video: IA04 Flowvantage -  Unlisted
